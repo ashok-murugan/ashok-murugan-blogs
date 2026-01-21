@@ -9,7 +9,9 @@ image: "assets/banner.png"
 
 # White Labeling: The Shortcut That Teaches You More Than It Pays
 
-<img src="assets/banner.png" alt="White Labeling: Infrastructure, Product, Brand, and Distribution Stack" width="100%" />
+<p align="center">
+  <img src="assets/banner.png" alt="White Labeling: Infrastructure, Product, Brand, and Distribution Stack" width="80%" />
+</p>
 
 ## Table of Contents
 1. [Introduction — The Comfortable Lie](#introduction--the-comfortable-lie)
@@ -65,7 +67,9 @@ A more useful mental model:
 
 When things break, users don’t blame your supplier. They blame **you**.
 
-<img src="assets/risk-balance.png" alt="Balance scale showing Product Risk vs Customer Trust Risk" width="100%" />
+<p align="center">
+  <img src="assets/risk-balance.png" alt="Balance scale showing Product Risk vs Customer Trust Risk" width="80%" />
+</p>
 
 ---
 
@@ -80,13 +84,17 @@ Every white-labeled company quietly operates on four layers:
 
 Most founders think they’re building **Layer 1**. In reality, they’re only allowed to compete in **Layers 3 and 4**.
 
-<img src="assets/stack-diagram.png" alt="Diagram showing the four layers of a white-labeled business with distribution as the core compounding asset" width="100%" />
+<p align="center">
+  <img src="assets/stack-diagram.png" alt="Diagram showing the four layers of a white-labeled business with distribution as the core compounding asset" width="80%" />
+</p>
 
 ---
 
 ## White Labeling in the Wild — Real Examples Across Industries
 
-<img src="assets/industry-collage.png" alt="Collage of SaaS dashboards, e-commerce, and fintech examples" width="100%" />
+<p align="center">
+  <img src="assets/industry-collage.png" alt="Collage of SaaS dashboards, e-commerce, and fintech examples" width="80%" />
+</p>
 
 ---
 
@@ -140,7 +148,9 @@ Many fast-growing brands:
 
 ### FinTech & Embedded Finance
 
-<img src="assets/baas-architecture.png" alt="Banking-as-a-Service architecture diagram" width="100%" />
+<p align="center">
+  <img src="assets/baas-architecture.png" alt="Banking-as-a-Service architecture diagram" width="80%" />
+</p>
 
 Most neobanks are:
 - UI + onboarding + marketing  
@@ -197,7 +207,9 @@ White-label businesses often have 10–30% gross margins, yet heavy support over
 ### Trap 3: Supplier Fragility
 If your upstream provider changes pricing, alters terms, or enters your market, your business can collapse **without warning**.
 
-<img src="assets/glass-bridge.png" alt="Concept art of a glass bridge labeled White Label Business with visible cracks" width="100%" />
+<p align="center">
+  <img src="assets/glass-bridge.png" alt="Concept art of a glass bridge labeled White Label Business with visible cracks" width="80%" />
+</p>
 
 ---
 
@@ -222,7 +234,9 @@ Some founders use white labeling to fund a bigger vision or buy time to build re
 
 If the answer isn’t **Distribution**, **Brand trust**, or **Customer insight**, you don't have a business. You have **temporary access**.
 
-<img src="assets/founder-key.png" alt="Founder holding a key labeled Distribution" width="100%" />
+<p align="center">
+  <img src="assets/founder-key.png" alt="Founder holding a key labeled Distribution" width="80%" />
+</p>
 
 ---
 
