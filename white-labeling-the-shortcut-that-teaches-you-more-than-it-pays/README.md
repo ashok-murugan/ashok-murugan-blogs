@@ -13,22 +13,6 @@ image: "assets/banner.png"
   <img src="assets/banner.png" alt="White Labeling: Infrastructure, Product, Brand, and Distribution Stack" width="80%" />
 </p>
 
-## Table of Contents
-1. [Introduction — The Comfortable Lie](#introduction--the-comfortable-lie)
-2. [What White Labeling Really Is](#what-white-labeling-really-is)
-3. [The Hidden Stack Behind Every White-Labeled Business](#the-hidden-stack-behind-every-white-labeled-business)
-4. [White Labeling in the Wild — Real Examples](#white-labeling-in-the-wild--real-examples-across-industries)
-   - [SaaS & Developer Platforms](#saas--developer-platforms)
-   - [E-Commerce & Consumer Brands](#e-commerce--consumer-brands)
-   - [FinTech & Embedded Finance](#fintech--embedded-finance)
-   - [EdTech & Corporate Learning](#edtech--corporate-learning)
-   - [Mobility, Logistics & Infra](#mobility-logistics--infra)
-5. [The Three White Label Traps](#the-three-white-label-traps)
-6. [When White Labeling Is Actually Smart](#when-white-labeling-is-actually-smart)
-7. [The Question Every Founder Must Answer](#the-question-every-founder-must-answer)
-8. [Final Thought](#final-thought)
-
----
 
 ## Introduction — The Comfortable Lie
 
