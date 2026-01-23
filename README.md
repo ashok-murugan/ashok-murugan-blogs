@@ -10,6 +10,9 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 ### [White Labeling: The Shortcut That Teaches You More Than It Pays](./white-labeling-the-shortcut-that-teaches-you-more-than-it-pays/README.md)
 *An exploration of the risks and rewards of white labeling, and why owning distribution is the only compounding asset.*
 
+### [The Rise of the Product Engineer: Why Startups No Longer Need 'Full-Stack' Developers](./the-rise-of-the-product-engineer/README.md)
+*Why the modern engineering frontier is moving away from technical layers towards product outcomes. A deep dive into the shift from full-stack to product-centric engineering.*
+
 ---
 
 ## 🚀 About
