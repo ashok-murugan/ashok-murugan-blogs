@@ -106,6 +106,11 @@ When generating images, use prompts like:
 No text or labels unless specified.
 ```
 
+**Examples (from MVP Blog):**
+- *Banner:* "Minimal flat illustration of a simple CLI tool working successfully on a laptop screen in the foreground, while a large, complex system architecture diagram fades transparently in the background. Modern engineering aesthetic, muted color palette."
+- *Conceptual Diagram:* "Clean technical diagram showing a simple linear flow: 'Assumption' (circle) → 'MVP' (square) → 'Reality' (hexagon) → 'Decision' (triangle). Minimalist line-art style with black lines on white background, technical blueprint aesthetic."
+- *Comparison:* "Split comparison illustration showing two paths: Left side labeled 'Without MVP' shows confused engineers around a whiteboard with chaos. Right side labeled 'With MVP' shows focused team looking at clear data charts with upward trends."
+
 ### Content Writing Guidelines
 
 #### Tone
