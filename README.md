@@ -4,14 +4,39 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 
 ## 📚 Blog Posts
 
+### [Company Registration Options in India: A Practical Guide](./company-registration-options-india/README.md)
+*A simple, working-professional-friendly guide on when and how to register your side project as a startup in India, while managing moonlighting risks.*
+
+### [Distributed Consistency: Beyond the CAP Theorem](./distributed-consistency-beyond-cap/README.md)
+*Why the CAP theorem is often misunderstood in modern engineering and how to navigate PACELC for real-world distributed systems.*
+
+### [LLMOps: The New Infrastructure Frontier](./llmops-the-new-infrastructure-frontier/README.md)
+*How to scale generative AI from prototype to production using the Staff Engineer's guide to LLM infrastructure.*
+
 ### [Minimum Viable Product: Engineering Wisdom That Beats Perfect Architecture](./minimum-viable-product-engineering-wisdom/README.md)
 *Why MVPs win where clean architecture, funding, and talent often fail. A deep dive into intentional incompleteness and building products that should exist.*
+
+### [React Server Components: An Architectural Shift](./react-server-components-architectural-shift/README.md)
+*Why RSCs are more than just a performance boost—they redefine the client-server boundary.*
+
+### [SRE Metrics That Actually Matter](./sre-metrics-that-actually-matter/README.md)
+*Going beyond the Golden Signals: How to measure impact and reliability at Staff Engineer scale.*
+
+### [System Design: Scaling to 100 Million Users](./system-design-scaling-to-100-million/README.md)
+*The architectural evolution required to support massive scale, from load balancing to sharding.*
+
+### [The Evolution of Data Mesh](./the-evolution-of-data-mesh/README.md)
+*Moving from centralized Monoliths to decentralized Data Domains: A Staff Engineer's perspective on Data Mesh.*
+
+### [The Rise of the Product Engineer: Why Startups No Longer Need 'Full-Stack' Developers](./the-rise-of-the-product-engineer/README.md)
+*Why the modern engineering frontier is moving away from technical layers towards product outcomes. A deep dive into the shift from full-stack to product-centric engineering.*
 
 ### [White Labeling: The Shortcut That Teaches You More Than It Pays](./white-labeling-the-shortcut-that-teaches-you-more-than-it-pays/README.md)
 *An exploration of the risks and rewards of white labeling, and why owning distribution is the only compounding asset.*
 
-### [The Rise of the Product Engineer: Why Startups No Longer Need 'Full-Stack' Developers](./the-rise-of-the-product-engineer/README.md)
-*Why the modern engineering frontier is moving away from technical layers towards product outcomes. A deep dive into the shift from full-stack to product-centric engineering.*
+### [Zero Trust Architecture Deep Dive](./zero-trust-architecture-deep-dive/README.md)
+*Moving beyond the perimeter: How to implement Zero Trust at the network and application layer.*
+
 
 ---
 
