@@ -35,7 +35,7 @@ No legal overkill. Just real-world clarity.
 
 ---
 
-## 1️⃣ Company Registration Options in India (Quick Overview)
+## Company Registration Options in India (Quick Overview)
 
 Before choosing, understand what each option really means.
 
@@ -79,7 +79,7 @@ Before choosing, understand what each option really means.
 
 ---
 
-## 2️⃣ The Practical Suggestion (For Working Professionals)
+## The Practical Suggestion (For Working Professionals)
 
 For most professionals, the lowest-risk and smartest path is:
 
@@ -93,7 +93,7 @@ Why this works:
 
 ---
 
-## 3️⃣ Stage 1: Start as a Sole Proprietor (Step-by-Step)
+## Stage 1: Start as a Sole Proprietor (Step-by-Step)
 
 This stage is about testing ideas without attracting attention.
 
@@ -142,7 +142,7 @@ Portal: [GST Portal](https://www.gst.gov.in/)
 
 ---
 
-## 4️⃣ Moonlighting: What Really Matters
+## Moonlighting: What Really Matters
 
 This is where most professionals make mistakes.
 
@@ -162,7 +162,7 @@ This is where most professionals make mistakes.
 
 ---
 
-## 5️⃣ Stage 2: Convert to Private Limited (When Ready)
+## Stage 2: Convert to Private Limited (When Ready)
 
 Convert only when at least one is true:
 - Revenue is consistent
@@ -173,7 +173,7 @@ Convert only when at least one is true:
 
 ---
 
-## 6️⃣ Private Limited Company Registration (Clear Steps)
+## Private Limited Company Registration (Clear Steps)
 
 All filings happen via Ministry of Corporate Affairs (MCA).
 
@@ -221,7 +221,7 @@ You are now officially a Private Limited Company.
 
 ---
 
-## 7️⃣ Final Advice (Founder to Founder)
+## Final Advice (Founder to Founder)
 
 If you’re a working professional:
 1. Don’t rush registration
@@ -230,7 +230,7 @@ If you’re a working professional:
 
 Most startups didn’t start as companies. They started as responsible side projects.
 
-### ✍️ Closing Thought
+### Closing Thought
 
 Build quietly.  
 Validate honestly.  
