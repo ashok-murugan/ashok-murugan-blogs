@@ -1,3 +1,9 @@
+---
+title: "Blogs — Ashok Murugan"
+description: "Engineering, systems, and product thinking. Deep dives into distributed systems, AI infrastructure, and scaling platforms by Ashok Murugan."
+keywords: ["Engineering Blog", "Distributed Systems", "AI Infrastructure", "System Design", "Staff Engineer", "Ashok Murugan"]
+---
+
 # Ashok Murugan Blogs
 
 Welcome to my personal blog collection. Here, I share insights on startups, technology, product management, and the hidden mechanics of the digital economy.
