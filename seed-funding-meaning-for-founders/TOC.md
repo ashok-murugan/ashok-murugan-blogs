@@ -1,0 +1,14 @@
+## Table of Contents
+
+1. [Introduction — Seed funding is misunderstood](#introduction--seed-funding-is-misunderstood)
+2. [The real job of a seed round](#the-real-job-of-a-seed-round)
+3. [Why investors fund chaos at seed](#why-investors-fund-chaos-at-seed)
+4. [There are three different seed rounds](#there-are-three-different-seed-rounds)
+   - [Pre-seed — belief capital](#1-pre-seed--belief-capital)
+   - [Institutional seed — signal capital](#2-institutional-seed--signal-capital)
+   - [Seed extension — momentum capital](#3-seed-extension--momentum-capital)
+5. [Traction at seed is not a dashboard](#traction-at-seed-is-not-a-dashboard)
+6. [Valuation is a tool — not a trophy](#valuation-is-a-tool--not-a-trophy)
+7. [Your seed deck only needs five answers](#your-seed-deck-only-needs-five-answers)
+8. [The part nobody warns founders about: psychology](#the-part-nobody-warns-founders-about-psychology)
+9. [Conclusion](#conclusion)

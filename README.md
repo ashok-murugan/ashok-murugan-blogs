@@ -40,6 +40,9 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 ### [White Labeling: The Shortcut That Teaches You More Than It Pays](./white-labeling-the-shortcut-that-teaches-you-more-than-it-pays/README.md)
 *An exploration of the risks and rewards of white labeling, and why owning distribution is the only compounding asset.*
 
+### [What Seed Funding Actually Means for Founders](./seed-funding-meaning-for-founders/README.md)
+*A founder-first guide to understanding seed funding as a test of judgment and a mechanism for proving core hypotheses.*
+
 ### [Zero Trust Architecture Deep Dive](./zero-trust-architecture-deep-dive/README.md)
 *Moving beyond the perimeter: How to implement Zero Trust at the network and application layer.*
 
