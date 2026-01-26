@@ -27,11 +27,14 @@ Nothing more. Nothing less.
 
 A seed round exists to answer **one brutal question**: “Should this startup exist at Series A scale?”
 
-Investors at this stage aren't necessarily looking for profitability, polish, or an impressive office. They are looking for:
+Investors at this stage aren't necessarily looking for profitability, polish, or an impressive office. They are looking for **Product-Market Fit (PMF) potential**. To prove this, you need to validate three core hypotheses:
 
-- **Problem validation:** Is the problem real?
-- **Solution relevance:** Is the solution non-random and effective?
-- **Learning velocity:** Is the team learning faster than the market?
+- **The Value Hypothesis:** Does the product actually provide value to the users?
+- **The Scalability Hypothesis:** If we pour $10M into this, will it grow linearly or exponentially?
+- **The Team Hypothesis:** Is this the group that can navigate the pivot if the first two are wrong?
+
+> **Mental Model: The Seed Thesis.** 
+> You are not selling a company; you are selling a "proof-of-concept" for a future monopoly. Your job is to reduce the risk of the Series A investor to a solvable engineering and sales problem.
 
 Seed is a **test of judgment**, not execution perfection.
 
@@ -78,19 +81,24 @@ Calling all three "seed" is how founders confuse themselves and their potential 
 
 ## Traction at seed is not a dashboard
 
-Traction is **behavior**, not just numbers on a screen. Real seed-stage traction looks like:
+Traction is **behavior**, not just numbers on a screen. Numbers can be faked with spend; behavior cannot. Real seed-stage traction looks like:
 
-- Users returning without constant reminders.
-- Someone getting angry when your product breaks.
-- Manual usage before you've even built the automation.
-- Absolute clarity on who this is *not* for.
+- **Retention > Growth:** Users returning without constant reminders.
+- **Organic Pull:** Users finding the product through word-of-mouth, not just ads.
+- **Pain Threshold:** Someone getting angry when your product breaks. That's a sign they *need* it.
+- **Negative Feedback:** Specific complaints about missing features, rather than general "it's fine" praise.
 
-**Examples of real traction:**
-- **B2B SaaS:** 3–5 teams using the product weekly.
-- **Dev Tool:** Active GitHub issues (engagement) rather than just stars (vanity).
-- **Consumer:** Strong retention after day 7 or day 30.
+### The Traction Matrix (Domain Specific)
 
-> Revenue is a signal. **Pull is the proof.**
+| Domain | What to Track (Signal) | What to Ignore (Noise) |
+| :--- | :--- | :--- |
+| **B2B SaaS** | Weekly Active Teams, Usage Depth | Total Registered Users |
+| **Consumer** | Day 30 Retention, K-Factor | Total Downloads, PR Hits |
+| **Dev Tools** | Implementation depth, CLI invocations | GitHub Stars, Twitter likes |
+| **Infrastructure**| Production workloads, uptime reliance | Trial signups, logo count |
+
+> **Mental Model: Pull vs. Push.** 
+> If you have to push your product into users' hands, you are still in the pre-seed phase. Seed starts when the market begins to pull the product out of your hands.
 
 <p align="center">
   <img src="assets/user-retention.png" alt="Abstract illustration of users repeatedly returning to a product" width="80%">
@@ -118,6 +126,20 @@ The common mistakes founders make include:
 - An obsession with optics over actual learning.
 
 > Bad seed investors don’t just hurt this round — they poison the next one.
+
+---
+
+## Operational Hygiene: Spending the First $2M
+
+The biggest risk after a seed round is **Premature Scaling**. Founders often hire too fast before they've identified the "Single Atomic Action" that drives value.
+
+**The Seed Spending Framework:**
+1. **Core Engineering (60%):** Build the "Steel Thread"—the simplest path that delivers the core value.
+2. **Customer Discovery (20%):** Not marketing, but conversations. Paying for access to feedback.
+3. **Optionality (20%):** Reserve for pivots or unexpected technical hurdles.
+
+> **Mental Model: The Default Alive mindset.** 
+> Ask yourself: "If we never raise another dollar, how do we get to a point where we don't need to?" Even if you plan to raise an A, operating as if you won't forces discipline.
 
 ---
 
