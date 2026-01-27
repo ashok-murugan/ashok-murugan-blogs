@@ -31,6 +31,9 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 ### [SRE Metrics That Actually Matter](./sre-metrics-that-actually-matter/README.md)
 *Going beyond the Golden Signals: How to measure impact and reliability at Staff Engineer scale.*
 
+### [The Solopreneur Operating System: How Working Professionals Build Startups Without Burning Out](./the-solopreneur-operating-system-how-working-professionals-build-startups-without-burning-out/README.md)
+*A systematic approach to building side projects that actually ship — designing cognitive, time, execution, and emotional operating systems that fit real life.*
+
 ### [System Design: Scaling to 100 Million Users](./system-design-scaling-to-100-million/README.md)
 *The architectural evolution required to support massive scale, from load balancing to sharding.*
 
