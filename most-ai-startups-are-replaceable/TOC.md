@@ -1,0 +1,16 @@
+## Table of Contents
+
+1. [Everyone Is Building AI. Most Won’t Last.](#everyone-is-building-ai-most-wont-last)
+2. [The Real Pattern Behind Failed AI Startups](#the-real-pattern-behind-failed-ai-startups)
+3. [Failure Stories: When “Wrapper” Meant Replaceable](#failure-stories-when-wrapper-meant-replaceable)
+   - [AI PDF Chat Tools](#ai-pdf-chat-tools)
+   - [AI Copywriting Startups](#ai-copywriting-startups)
+   - [AI Resume Builders](#ai-resume-builders)
+4. [The Quiet Winners Don’t Look Impressive at First](#the-quiet-winners-dont-look-impressive-at-first)
+   - [Harvey AI (Legal)](#harvey-ai-legal)
+   - [Cursor (AI Code Editor)](#cursor-ai-code-editor)
+   - [Glean (Enterprise Search)](#glean-enterprise-search)
+5. [Where AI Value Actually Compounds](#where-ai-value-actually-compounds)
+6. [What a “Real AI Product” Means in 2026](#what-a-real-ai-product-means-in-2026)
+7. [The Brutal Test Every Founder Should Apply](#the-brutal-test-every-founder-should-apply)
+8. [Final Thought](#final-thought)

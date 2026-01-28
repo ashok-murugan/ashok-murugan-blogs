@@ -25,6 +25,9 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 ### [Minimum Viable Product: Engineering Wisdom That Beats Perfect Architecture](./minimum-viable-product-engineering-wisdom/README.md)
 *Why MVPs win where clean architecture, funding, and talent often fail. A deep dive into intentional incompleteness and building products that should exist.*
 
+### [Most AI Startups Are Replaceable. Here’s the Pattern](./most-ai-startups-are-replaceable/README.md)
+*Why “AI wrapper” isn’t the real problem — and what actually survives. A deep dive into workflow, data, and irreversibility.*
+
 ### [React Server Components: An Architectural Shift](./react-server-components-architectural-shift/README.md)
 *Why RSCs are more than just a performance boost—they redefine the client-server boundary.*
 
