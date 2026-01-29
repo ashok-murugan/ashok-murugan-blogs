@@ -1,0 +1,16 @@
+## Table of Contents
+
+1. [Most Products Never Cross This Line](#most-products-never-cross-this-line)
+2. [The Demo Trap](#the-demo-trap)
+3. [The Dependence Equation](#the-dependence-equation)
+4. [The Displacement Threshold](#the-displacement-threshold)
+5. [The Quiet Moment Dependence Begins](#the-quiet-moment-dependence-begins)
+6. [Why Founders Avoid Building Dependence](#why-founders-avoid-building-dependence)
+7. [The Fork Every Product Reaches](#the-fork-every-product-reaches)
+    - [Path 1: Optimize the Demo](#path-1-optimize-the-demo)
+    - [Path 2: Optimize for Dependence](#path-2-optimize-for-dependence)
+8. [A Simple Test for Founders](#a-simple-test-for-founders)
+9. [Designing for Friction (Counter-Intuitive Growth)](#designing-for-friction-counter-intuitive-growth)
+10. [The "AI Wrapper" Survival Guide](#the-ai-wrapper-survival-guide)
+11. [The Founder's Choice](#the-founders-choice)
+12. [Conclusion](#conclusion)

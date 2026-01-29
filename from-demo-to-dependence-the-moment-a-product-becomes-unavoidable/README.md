@@ -71,6 +71,19 @@ A product becomes unavoidable when **at least one** of these is true:
 > Demos touch outputs.  
 > Dependence touches consequences.
 
+## The Displacement Threshold
+
+Every product exists in a market where the cost of staying (maintenance) is weighed against the cost of leaving (displacement). 
+
+For a demo, the displacement cost is near zero. You stop using it, and life returns to exactly how it was before. For a dependent product, displacement creates a **vacuum**.
+
+**Higher displacement cost comes from:**
+- **Regulatory Gravity:** Your tool is now the source of truth for compliance or audits.
+- **Inter-team Friction:** Team A uses it to feed Team B. Removing it breaks the social contract of the organization.
+- **Embedded Logic:** Your system doesn't just store data; it applies rules that the customer has forgotten how to execute manually.
+
+If your "Value Prop" is just speed, you are easily replaced by a faster tool. If your "Value Prop" is displacement pain, you are a platform.
+
 ## The Quiet Moment Dependence Begins
 
 Dependence doesn’t start with applause.
@@ -137,6 +150,35 @@ Ask yourself:
 - Who gets blamed if it fails — us or the user?
 
 If the answer is always “the user” — you’re still building a demo.
+
+## Designing for Friction (Counter-Intuitive Growth)
+
+Modern SaaS teaches us to "remove all friction." This is great for top-of-funnel, but fatal for long-term retention if taken too far. 
+
+To build dependence, you must strategically *introduce* friction that leads to integration:
+- **Mandatory Integrations:** Don't just offer an API; require a webhook to perform a core action.
+- **Customized Schemas:** Force users to define how your data fits their world.
+- **Certification/Training:** Make the user invest their own identity in mastering your system.
+
+Friction is the tax users pay for stability. If they haven't paid it, they don't value the stay.
+
+## The "AI Wrapper" Survival Guide
+
+In the current market, "AI Wrappers" are often criticized for having zero moat. They are the ultimate demos: easy to build, easy to try, and easy to churn from.
+
+To bridge the gap from a GPT-wrapper to a dependent system:
+- **Move from Chat to CRUD:** If your interface is just a text box, you are a tool. If your interface is a dashboard where users manage the *results* of the AI, you are a system.
+- **Own the Feedback Loop:** Don't just show an output; allow the user to correct it and store that correction as a unique data asset.
+- **Automate the Boring Integration:** Don't ask the user to copy-paste. Connect to their Slack, their Jira, or their DB. The moment you are "the thing that posts to Slack," you are hard to turn off.
+
+## The Founder's Choice
+
+You can spend your time making the demo 10% more "wow," or you can spend it making the integration 10% more "un-removable."
+
+The first gets you likes on X.
+The second gets you a trillion-dollar company.
+
+Choose wisely.
 
 ## Conclusion
 
