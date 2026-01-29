@@ -16,6 +16,9 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 ### [Distributed Consistency: Beyond the CAP Theorem](./distributed-consistency-beyond-cap/README.md)
 *Why the CAP theorem is often misunderstood in modern engineering and how to navigate PACELC for real-world distributed systems.*
 
+### [From Demo to Dependence: The Moment a Product Becomes Unavoidable](./from-demo-to-dependence/README.md)
+*Understanding the shift from "cool tool" to "critical infrastructure" and why most startups fail to bridge the gap.*
+
 ### [The Incubation Engine: Strategic Alpha and the High-Stakes Founder's Playbook](./the-incubation-engine-strategic-alpha-high-stakes-playbook/README.md)
 *Deconstructing the hidden mechanics of incubators—how to leverage structural support and non-dilutive capital without sacrificing equity or focus.*
 
