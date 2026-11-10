@@ -122,48 +122,25 @@ The server responds with an array of tools, complete with their **JSON Schema** 
 
 ---
 
-## Production Implementation — The Backend and the MCP Adapter
+## Production Implementation — Building an MCP Server Adapter
 
-In real enterprise systems, an MCP server is rarely a toy script with hardcoded responses. It is an **adapter** that connects an AI assistant to an existing production backend.
+In enterprise environments, an MCP server is rarely a standalone toy with hardcoded responses. It is an **adapter** that safely bridges an AI assistant to existing backend systems.
 
-To ensure realistic enterprise decoupling, our implementation is split into two distinct tiers:
-1. **Tier 1: Production Backend Service (`task-api/`)** — A lightweight, concurrent Go HTTP REST microservice listening on `:8080`. It manages tasks in memory with standard mutex locks and exposes clean REST endpoints (`GET /tasks`, `POST /tasks`). It has **zero awareness** of AI or MCP.
-2. **Tier 2: MCP Server Adapter (`server.py`)** — An asynchronous Python service built with the official [`mcp`](https://github.com/modelcontextprotocol/python-sdk) SDK. It speaks standard JSON-RPC over OS `stdio` pipes to the AI client and translates tool executions into HTTP calls against the Go backend.
+> **Mental Model: What is an MCP Server Really?**  
+> * **MCP Server** = Traditional Backend Service + MCP Adapter  
+> * **MCP Adapter** = Traditional API Client + MCP Protocol Contract (Tools, Resources, Prompts)  
+>
+> You do not rewrite your enterprise backend for AI. The underlying service remains an ordinary REST or gRPC microservice. The MCP adapter simply exposes it to the model by translating standard JSON-RPC tool calls into internal API requests.
 
 <p align="center">
-  <img src="./assets/lld-architecture.png" alt="MCP Adapter Low-Level Design Architecture" width="800" />
+  <img src="assets/lld-architecture.png" alt="MCP Adapter Low-Level Design Architecture" width="85%" />
 </p>
 
-### Tier 1: The Production REST API (`task-api` in Go)
-
-Here is how the core Go backend exposes task operations over HTTP:
-
-```go
-// task-api/main.go (Go standard library net/http)
-func (srv *Server) HandleTasks(w http.ResponseWriter, r *http.Request) {
-    w.Header().Set("Content-Type", "application/json")
-    switch r.Method {
-    case http.MethodGet:
-        status := r.URL.Query().Get("status")
-        tasks := srv.store.ListTasks(status)
-        json.NewEncoder(w).Encode(tasks)
-
-    case http.MethodPost:
-        var req struct { Title string `json:"title"` }
-        if err := json.NewDecoder(r.Body).Decode(&req); err != nil || strings.TrimSpace(req.Title) == "" {
-            http.Error(w, `{"error":"invalid title"}`, http.StatusBadRequest)
-            return
-        }
-        task := srv.store.AddTask(strings.TrimSpace(req.Title))
-        w.WriteHeader(http.StatusCreated)
-        json.NewEncoder(w).Encode(task)
-    }
-}
-```
+To keep our focus strictly on the protocol, our Python adapter connects to a background Task REST API on `http://localhost:8080`. *(If you want to run the companion backend service locally, the complete runnable code and setup guide are hosted in [assets/task-api](https://github.com/ashok-murugan/ashok-murugan-blogs/tree/main/mcp-part-1-the-first-handshake/assets/task-api)).*
 
 ---
 
-### Tier 2: The MCP Server Adapter (`server.py` in Python)
+### The Python FastMCP Adapter (`server.py`)
 
 The official Python SDK provides a high-level, declarative framework called **FastMCP**, detailed extensively in the official documentation:
 * **[Official MCP Server Quickstart](https://modelcontextprotocol.io/quickstart/server)**: Step-by-step tutorial for building a server in Python.
