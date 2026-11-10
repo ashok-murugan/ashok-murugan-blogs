@@ -73,17 +73,29 @@ GitHub generates anchors by:
 
 ## 4. Visual Language & Assets
 
-### 4.1 Banner Style
-- **Dimensions:** 16:9 Aspect Ratio.
-- **Vibe:** Technical, abstract, minimalist. Avoid generic stock photos.
-- **No Text:** Banners should not contain embedded text.
+### 4.1 Series Banner Standards (Chalk White + 2 Colors)
+- **Unique Series Theme Standard:** Every multi-part technical series (e.g., MCP series, RAG series, System Design series) must maintain a consistent, dedicated color theme across all parts in that series.
+- **Base Color:** **Chalk White** (`#f8fafc` / `#ffffff`) to blend cleanly with the blog's reading canvas.
+- **Two Complementary Accent Colors:** Each series chooses exactly two signature colors:
+  - **MCP Series Standard:** Protocol Electric Blue (`#2563eb`) + Emerald Green (`#059669`).
+- **Dimensions & Format:** 16:9 Aspect Ratio (`1200x675` or `1376x768`), high-resolution PNG.
+- **Vibe:** Technical, abstract, modular architecture, and minimalist geometry. Avoid stock photography.
+- **Zero Embedded Text:** Banners must never contain embedded text titles.
 
-### 4.2 Technical Diagrams
-- **No Raw Mermaid Blocks:** The portal markdown engine renders fenced ````mermaid``` code blocks as unrendered raw text boxes. All flowcharts, sequence diagrams, and architecture maps **must be generated and embedded as standalone PNG images** located in the `assets/` directory.
-- **Consistency:** Use consistent dark-mode styling, clean line weights, and modern developer color palettes (e.g., slate `#0f172a`, cyan `#06b6d4`, electric blue `#3b82f6`).
-- **Format:** High-resolution PNG is mandatory to ensure crispness across retina and high-DPI displays.
-- **Centering:** All diagram images must be wrapped in a centered `<p>` tag with `width="80%"` or `width="85%"`.
+### 4.2 Flow & Architecture Diagrams (Light Theme Invariant)
+- **Zero Dark/Black Canvases:** Across the entire blog portal, all flowcharts, sequence diagrams, and architecture maps (`flow` and `arch` diagrams) must use a **clean light design standard** (`#ffffff` canvas). Never use dark slate (`#0f172a`) or black backgrounds, which look harsh against the portal's light reading layout.
+- **Card Panels:** Use pure white (`#ffffff`) or subtle pastel-tinted cards (e.g. Sky-50 `#f0f9ff`, Emerald-50 `#f0fdf4`, Indigo-50 `#eef2ff`) with delicate borders (`#cbd5e1`) and 2px rounded corners.
+- **Typography:** High-contrast text only. Main titles and node labels in Deep Charcoal (`#0f172a`), secondary/sub-labels in Slate-500 (`#64748b`).
+- **No Raw Mermaid Blocks:** Always generate and embed standalone PNG images located in `assets/`.
+- **Centering & Scaling:** All diagram images must be wrapped in a centered `<p align="center"><img ... width="85%" /></p>` tag.
 - **Reference Code Attachments:** If the post demonstrates a practical systems implementation, attach or link the runnable reference files under `assets/` or link to the project repository for reader hands-on exploration.
+
+### 4.3 Typography & The RGB Standard
+Follow the established RGB color hierarchy across all posts:
+- **Red (`var(--line-red)` / `#ef4444`):** Strictly reserved for warnings, critical protocol hazards (e.g. `stdout` corruption), breaking alerts, and the first item in the RGB cycling indicator. Never overuse red for normal bold text.
+- **Green (`var(--line-green)` / `#15803d` / `#22c55e`):** The signature developer accent for code block borders, inline code badges, verified architectural patterns, and execution successes.
+- **Blue (`var(--line-blue)` / `#2563eb` / `#3b82f6`):** The navigational and architectural accent for links, subheadings (`###`), blockquote margins, and ordered list markers.
+- **Bold Text (`strong`):** Must render in Deep Slate (`#111827`) to provide typographical hierarchy without causing visual fatigue.
 
 ---
 
