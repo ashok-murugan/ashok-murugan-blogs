@@ -3,8 +3,11 @@ title: "What Seed Funding Actually Means for Founders"
 description: "A founder-first guide to understanding seed funding as a test of judgment and a mechanism for proving core hypotheses."
 author: "Ashok Murugan"
 date: "2026-01-27"
-keywords: ["seed-funding", "startups", "vc", "founder-guide", "early-stage"]
+keywords: ["Seed Funding", "Early-Stage Startups", "Venture Capital", "Angel Investors", "Startup Fundraising", "Term Sheets", "Founder Guide", "Pre-Seed vs Seed", "Dilution", "Runway Management", "Investor Pitch", "India Startup Capital"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

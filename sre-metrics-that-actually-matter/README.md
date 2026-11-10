@@ -3,8 +3,11 @@ title: "SRE Metrics That Actually Matter"
 description: "Going beyond the Golden Signals: How to measure impact and reliability at Staff Engineer scale."
 author: "Ashok Murugan"
 date: "2026-01-22"
-keywords: ["SRE", "reliability", "SLO", "SLI", "MTTR", "MTBF"]
+keywords: ["SRE", "Site Reliability Engineering", "SLO", "SLI", "SLA", "Error Budgets", "MTTR", "MTBF", "Observability", "Distributed Tracing", "Golden Signals", "Reliability Engineering", "Staff Engineer", "Cloud Infrastructure"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

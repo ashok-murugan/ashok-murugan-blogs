@@ -3,8 +3,11 @@ title: "The Incubation Engine: Strategic Alpha and the High-Stakes Founder's Pla
 description: "Deconstructing the hidden mechanics of incubators—how to leverage structural support without sacrificing equity or focus."
 author: "Ashok Murugan"
 date: "2026-01-25"
-keywords: ["strategic incubation", "startup infrastructure", "non-dilutive capital", "grant engineering", "structural alpha", "founder strategy"]
+keywords: ["Startup Incubators", "Accelerators", "Non-Dilutive Capital", "Government Grants India", "Founder Strategy", "Structural Alpha", "Venture Building", "Startup Ecosystem", "Equity Dilution", "DeepTech Incubation"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

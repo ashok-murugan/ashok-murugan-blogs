@@ -3,8 +3,11 @@ title: "System Design: Scaling to 100 Million Users"
 description: "The architectural evolution required to support massive scale, from load balancing to sharding."
 author: "Ashok Murugan"
 date: "2026-01-22"
-keywords: ["System Design", "Scalability", "Sharding", "Caching", "Load Balancing"]
+keywords: ["System Design", "Scalability", "High Availability", "Database Sharding", "Distributed Caching", "Load Balancing", "Microservices", "100 Million Users", "System Architecture", "Horizontal Scaling", "Staff Engineer", "Fault Tolerance"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

@@ -3,8 +3,11 @@ title: "From Demo to Dependence: The Moment a Product Becomes Unavoidable"
 description: "Understanding the shift from \"cool tool\" to \"critical infrastructure\" and why most startups fail to bridge the gap."
 author: "Ashok Murugan"
 date: "2026-01-30"
-keywords: ["product-strategy", "startup-growth", "retention", "user-dependence", "ai-startups"]
+keywords: ["Product Strategy", "Product-Market Fit", "Retention", "User Dependence", "Startup Growth", "Critical Infrastructure", "B2B SaaS", "Product Management", "AI Startups", "Switching Costs", "Enterprise Software", "Tech Entrepreneurship"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

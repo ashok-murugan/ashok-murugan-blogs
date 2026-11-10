@@ -3,8 +3,11 @@ title: "LLMOps: The New Infrastructure Frontier"
 description: "How to scale generative AI from prototype to production using the Staff Engineer's guide to LLM infrastructure."
 author: "Ashok Murugan"
 date: "2026-01-22"
-keywords: ["LLMOps", "AI infrastructure", "Machine Learning", "Scalability", "DevOps"]
+keywords: ["LLMOps", "AI Infrastructure", "Machine Learning Operations", "Model Serving", "Vector Databases", "Prompt Engineering", "GPU Orchestration", "AI Engineering", "Production LLMs", "Observability", "DevOps for AI", "Enterprise GenAI"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

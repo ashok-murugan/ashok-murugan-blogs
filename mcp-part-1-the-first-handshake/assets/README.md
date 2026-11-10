@@ -123,3 +123,4 @@ This repository tracks the step-by-step evolution of an enterprise MCP implement
 | **Part 3** | **Walkie-Talkies vs Radio** | Remote SSE Transport adapter (`sse_server.py`) on port `:8081` |
 | **Part 4** | **Thinking & Doing** | Autonomous Agent Client host (`agent_chat.py`) with ReAct loop |
 | **Part 5** | **The Big Red Button** | Security gatekeeper with Human-in-the-Loop confirmations & audit logs |
+

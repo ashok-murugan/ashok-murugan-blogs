@@ -3,8 +3,11 @@ title: "Distributed Consistency: Beyond the CAP Theorem"
 description: "Why the CAP theorem is often misunderstood in modern engineering and how to navigate PACELC for real-world distributed systems."
 author: "Ashok Murugan"
 date: "2026-01-22"
-keywords: ["distributed systems", "consistency", "CAP theorem", "PACELC", "databases"]
+keywords: ["Distributed Systems", "Consistency Models", "CAP Theorem", "PACELC Theorem", "Linearizability", "Sequential Consistency", "Eventual Consistency", "Database Architecture", "System Design", "Staff Engineer", "Distributed Consensus", "Backend Engineering", "Scalability", "High Availability"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

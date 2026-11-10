@@ -3,8 +3,11 @@ title: "Model Context Protocol (MCP) Explained, Part 1: The First Handshake"
 description: "A developer's guide to the Model Context Protocol (MCP). Learn how AI models connect to tools over JSON-RPC 2.0 stdio pipes, capability negotiation, and why stdout is sacred."
 author: "Ashok Murugan"
 date: "2026-11-10"
-keywords: ["model-context-protocol", "mcp-tutorial", "mcp-guide", "modelcontextprotocol.io", "json-rpc-2.0", "ai-agents", "python-mcp-sdk", "llm-tool-calling", "anthropic-mcp", "cursor-mcp", "stdio-pipes"]
+keywords: ["Model Context Protocol", "MCP", "modelcontextprotocol.io", "MCP Tutorial", "FastMCP", "Python MCP SDK", "AI Agents", "LLM Tool Calling", "JSON-RPC 2.0", "Anthropic Claude", "Cursor AI", "Stdio Transport", "AI Systems Architecture", "Developer Tools", "Bengaluru Tech"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

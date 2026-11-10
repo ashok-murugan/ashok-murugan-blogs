@@ -3,8 +3,11 @@ title: "Most AI Startups Are Replaceable. Here’s the Pattern"
 description: "Why 'AI wrapper' isn’t the real problem — and what actually survives. A deep dive into workflow, data, and irreversibility."
 author: "Ashok Murugan"
 date: "2026-01-29"
-keywords: ["AI Startups", "Product Strategy", "SaaS", "Engineering", "Startup Survival", "Moat", "AI Wrapper"]
+keywords: ["AI Startups", "AI Moats", "AI Wrappers", "Defensibility", "Product Strategy", "Enterprise SaaS", "Startup Survival", "Generative AI Products", "Proprietary Data", "Workflow Integration", "Venture Capital"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

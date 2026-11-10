@@ -3,8 +3,11 @@ title: "Zero Trust Architecture Deep Dive"
 description: "Moving beyond the perimeter: How to implement Zero Trust at the network and application layer."
 author: "Ashok Murugan"
 date: "2026-01-22"
-keywords: ["Zero Trust", "Security", "Networking", "mTLS", "IAM"]
+keywords: ["Zero Trust", "Zero Trust Architecture", "Cloud Security", "mTLS", "Identity and Access Management", "IAM", "Network Security", "Application Security", "Enterprise Security", "Least Privilege", "Microsegmentation", "Cybersecurity"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

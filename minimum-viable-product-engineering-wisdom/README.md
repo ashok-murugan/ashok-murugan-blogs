@@ -3,8 +3,11 @@ title: "Minimum Viable Product: Engineering Wisdom That Beats Perfect Architectu
 description: "Why MVPs win where clean architecture, funding, and talent often fail. A deep dive into intentional incompleteness, feedback systems, and building products that should exist."
 author: "Ashok Murugan"
 date: "2026-01-23"
-keywords: ["MVP", "Product Development", "Software Engineering", "Startup Strategy", "Lean Development", "Product-Market Fit", "Engineering Culture", "Agile"]
+keywords: ["Minimum Viable Product", "MVP", "Lean Startup", "Product Engineering", "Agile Software Development", "Startup Strategy", "Software Architecture", "Product Development", "Product-Market Fit", "Intentional Incompleteness", "Engineering Culture", "Rapid Prototyping"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

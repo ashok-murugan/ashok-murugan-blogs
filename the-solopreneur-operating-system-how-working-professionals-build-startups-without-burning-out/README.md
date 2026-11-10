@@ -3,8 +3,11 @@ title: "The Solopreneur Operating System: How Working Professionals Build Startu
 description: "How working professionals build startups without burning out — a systematic approach to side projects that actually ship"
 author: "Ashok Murugan"
 date: "2026-01-28"
-keywords: ["solopreneur", "side-projects", "startup", "productivity", "burnout", "operating-system", "working-professionals"]
+keywords: ["Solopreneur", "Side Projects", "Bootstrapping", "Developer Productivity", "Burnout Prevention", "Time Management", "Solo Founders", "Indie Hacking", "Micro-SaaS", "Working Professionals", "Startup OS"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

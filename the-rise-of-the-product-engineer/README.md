@@ -3,8 +3,11 @@ title: "The Rise of the Product Engineer: Why Startups No Longer Need 'Full-Stac
 description: "Why the modern engineering frontier is moving away from technical layers towards product outcomes. A deep dive into the shift from full-stack to product-centric engineering."
 author: "Ashok Murugan"
 date: "2026-01-24"
-keywords: ["Product Engineering", "Full-Stack Developer", "Startup Culture", "Engineering Career", "Software Development Life Cycle", "User Experience", "Product-Led Growth"]
+keywords: ["Product Engineer", "Full-Stack Developer", "Product-Led Growth", "Engineering Career", "Software Development", "Developer Experience", "Tech Careers", "Product Thinking", "Design Engineering", "Software Engineering Life Cycle"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

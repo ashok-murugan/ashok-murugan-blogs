@@ -3,8 +3,11 @@ title: "Company Registration Options in India"
 description: "A simple, working-professional-friendly guide (from side project to startup)"
 author: "Ashok Murugan"
 date: "2026-01-25"
-keywords: ["company registration", "india", "startup", "sole proprietorship", "pvt ltd", "moonlighting"]
+keywords: ["Company Registration India", "Startup India", "Pvt Ltd vs LLP", "Sole Proprietorship", "One Person Company", "OPC", "Founder Guide India", "Moonlighting in Tech", "Ministry of Corporate Affairs", "MCA India", "Bengaluru Startups", "India Startup Ecosystem", "Legal Tech", "Company Incorporation"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">

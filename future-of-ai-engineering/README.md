@@ -3,8 +3,11 @@ title: "The Future of AI Engineering: From Prompting to Agents"
 description: "Why the next phase of AI isn't about better models, but about building intelligent agentic systems that actually get work done."
 author: "Ashok Murugan"
 date: "2026-01-25"
-keywords: ["AI Engineering", "Agentic Workflows", "LLMs", "Future of Tech", "Machine Learning"]
+keywords: ["AI Engineering", "Agentic Workflows", "Autonomous Agents", "LLMs", "Generative AI", "Software Engineering Evolution", "AI Systems Architecture", "Artificial Intelligence", "Model Context Protocol", "Prompt Engineering", "Multi-Agent Systems", "Developer Infrastructure"]
 image: "assets/banner.png"
+language: "en-IN"
+geo_region: "IN-KA"
+geo_placename: "Bengaluru, India"
 ---
 
 <p align="center">
