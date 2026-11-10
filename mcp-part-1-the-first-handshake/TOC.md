@@ -8,6 +8,6 @@
    * [Phase 1: The Greeting (`initialize`)](#phase-1-the-greeting-initialize)
    * [Phase 2: The Acknowledgment (`notifications/initialized`)](#phase-2-the-acknowledgment-notificationsinitialized)
    * [Phase 3: The Catalog Discovery (`tools/list`)](#phase-3-the-catalog-discovery-toolslist)
-5. [Minimal Python Implementation](#minimal-python-implementation)
+5. [Production Implementation — Building an MCP Server Adapter](#production-implementation--building-an-mcp-server-adapter)
+   * [Why This Architecture Works](#why-this-architecture-works)
 6. [Conclusion](#conclusion)
-

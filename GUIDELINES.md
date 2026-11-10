@@ -79,9 +79,11 @@ GitHub generates anchors by:
 - **No Text:** Banners should not contain embedded text.
 
 ### 4.2 Technical Diagrams
-- **Consistency:** Use consistent line weights and color palettes (e.g., muted blues, grays, and blacks).
-- **Format:** PNG is preferred for diagrams to ensure crispness on all displays.
-- **Centering:** All images must be wrapped in a centered `<p>` tag with `width="80%"`.
+- **No Raw Mermaid Blocks:** The portal markdown engine renders fenced ````mermaid``` code blocks as unrendered raw text boxes. All flowcharts, sequence diagrams, and architecture maps **must be generated and embedded as standalone PNG images** located in the `assets/` directory.
+- **Consistency:** Use consistent dark-mode styling, clean line weights, and modern developer color palettes (e.g., slate `#0f172a`, cyan `#06b6d4`, electric blue `#3b82f6`).
+- **Format:** High-resolution PNG is mandatory to ensure crispness across retina and high-DPI displays.
+- **Centering:** All diagram images must be wrapped in a centered `<p>` tag with `width="80%"` or `width="85%"`.
+- **Reference Code Attachments:** If the post demonstrates a practical systems implementation, attach or link the runnable reference files under `assets/` or link to the project repository for reader hands-on exploration.
 
 ---
 
