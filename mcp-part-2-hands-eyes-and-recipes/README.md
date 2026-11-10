@@ -542,3 +542,4 @@ As distributed systems engineers and AI platform builders, separating **Tools**,
 3. **Operational Safety**: By reserving Tools strictly for state mutations and coupling them with host confirmation gates, you protect production infrastructure against unintended agent actions.
 
 In **[Part 3 of this series](https://blogs.ashokmurugan.com/mcp-part-3-under-the-hood-json-rpc-and-stdio-transport)**, we will peel back the abstraction layers and dive deep into the wire level: **JSON-RPC 2.0 framing, newline-delimited streaming, bidirectional notification flows, and managing OS subprocess lifecycles in high-concurrency environments**.
+

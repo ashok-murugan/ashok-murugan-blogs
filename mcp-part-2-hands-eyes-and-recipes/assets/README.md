@@ -66,3 +66,4 @@ mcp-part-2-hands-eyes-and-recipes/assets/
 - [MCP Resources Specification](https://modelcontextprotocol.io/docs/concepts/resources)
 - [MCP Prompts Specification](https://modelcontextprotocol.io/docs/concepts/prompts)
 - [FastMCP Python SDK Guide](https://github.com/modelcontextprotocol/python-sdk)
+

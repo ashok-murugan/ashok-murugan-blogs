@@ -13,3 +13,4 @@
   - [The Server Code: server.py](#the-server-code-serverpy)
 - [Interactive Testing with the MCP Inspector](#interactive-testing-with-the-mcp-inspector)
 - [Architectural Takeaways](#architectural-takeaways)
+

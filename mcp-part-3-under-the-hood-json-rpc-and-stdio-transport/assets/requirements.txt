@@ -1,0 +1,4 @@
+# Zero external dependencies required.
+# Pure Python 3.10+ standard library (subprocess, json, sys, threading).
+# Optional for testing high-level FastMCP servers:
+mcp[cli]>=1.0.0

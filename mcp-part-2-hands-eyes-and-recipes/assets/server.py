@@ -192,3 +192,4 @@ For each task:
 if __name__ == "__main__":
     # Launch stdio transport server
     mcp.run()
+
