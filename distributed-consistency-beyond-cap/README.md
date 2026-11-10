@@ -41,7 +41,7 @@ If you optimize for consistency, you pay for it in milliseconds. If you optimize
 
 ## Case Study: DynamoDB and the Quorum Model
 
-Amazon's DynamoDB is the gold standard for high-scale consistency management. It uses a **Quorum-based approach** $(R+W > N)$, where:
+Amazon's DynamoDB is the gold standard for high-scale consistency management. It uses a **Quorum-based approach** `(R + W > N)`, where:
 - **N:** Total copies (replicas).
 - **W:** Acknowledgments required for a successful write.
 - **R:** Replicas checked for a successful read.

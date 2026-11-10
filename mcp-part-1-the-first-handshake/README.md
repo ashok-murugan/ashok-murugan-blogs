@@ -257,7 +257,7 @@ The assets directory contains:
 
 The Model Context Protocol establishes the fundamental foundation for agentic AI engineering:
 
-* **Open USB-C Standard:** Solves the $M \times N$ fragmentation problem across AI clients and enterprise data sources.
+* **Open USB-C Standard:** Solves the M × N fragmentation problem across AI clients and enterprise data sources.
 * **Process Sandboxing:** Uses OS `stdio` pipes to run tools locally on developer machines without opening vulnerable network ports.
 * **The Sacred Wire:** Keeps `stdout` strictly reserved for newline-delimited JSON-RPC frames while routing all diagnostics to `stderr`.
 * **The 3-Phase Handshake:** Negotiates capabilities upfront before exposing tool schemas dynamically to the LLM.

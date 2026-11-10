@@ -9,7 +9,7 @@ This directory contains reference architectures, gateway routers, and multi-tena
 - **`gateway.py`**: A central MCP Gateway and Semantic Router that aggregates federated downstream microservice tools, demonstrates semantic Top-K filtering, and coordinates dynamic tool discovery.
 - **`banner.png`**: Series concluding banner adhering to Chalk White (`#f8fafc`) + Protocol Blue (`#2563eb`) + Emerald Green (`#059669`).
 - **`tool-explosion-problem.png`**: Context bloat vs. semantic routing cost/latency reduction.
-- **`enterprise-mcp-mesh.png`**: Full multi-tenant federated mesh topology (Client $\to$ Gateway $\to$ SSE/Stdio backends).
+- **`enterprise-mcp-mesh.png`**: Full multi-tenant federated mesh topology (Client → Gateway → SSE/Stdio backends).
 - **`sse-remote-transport.png`**: Server-Sent Events (SSE) remote HTTP transport wire mechanics.
 
 ---

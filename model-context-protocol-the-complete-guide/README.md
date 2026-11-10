@@ -17,7 +17,7 @@ Connecting Large Language Models to real-world software systems has historically
 
 Before late 2024, every AI provider—OpenAI, Anthropic, Google, and open-source runtimes—maintained proprietary function-calling formats. If you engineered an internal PostgreSQL tool, a Jira connector, or a GitHub pull-request reviewer, you were forced to write and maintain custom glue adapters for every single AI host or IDE.
 
-This fragmented $M \times N$ integration bottleneck changed permanently with the release of the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).
+This fragmented M × N integration bottleneck changed permanently with the release of the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).
 
 By establishing a universal, transport-agnostic open standard grounded in battle-tested systems principles—**OS stream pipes, JSON-RPC 2.0 framing, RFC 6570 URI routing, and Server-Sent Events**—MCP does for AI agent systems what the **Language Server Protocol (LSP)** did for modern code editors.
 
@@ -29,9 +29,11 @@ This comprehensive guide serves as the **definitive architectural manifesto and 
 
 Before diving into individual protocol primitives or wire mechanics, systems architects must internalize one central mental model:
 
-$$\text{MCP Server} = \text{Traditional Backend Service} + \text{MCP Adapter}$$
-
-$$\text{MCP Adapter} = \text{Traditional API Client} + \text{MCP Protocol Contract}$$
+> 💡 **Architectural Mental Model**
+>
+> **MCP Server** = **Traditional Backend Service** + **MCP Adapter**
+>
+> **MCP Adapter** = **Traditional API Client** + **MCP Protocol Contract**
 
 An MCP server does not replace your existing microservice infrastructure, relational databases, or cloud APIs. The underlying backend service remains 100% agnostic to AI, LLMs, or prompt engineering. The **MCP Adapter** acts purely as a protocol translation layer, exposing your service's capabilities, data streams, and workflows to AI clients over a standardized JSON-RPC interface.
 
@@ -49,7 +51,7 @@ Our comprehensive series walks through every layer of the protocol lifecycle—f
 *Published: November 1, 2026*
 
 The foundational guide exploring how an AI client (such as Claude Desktop or Cursor) launches an MCP server as an operating system child subprocess:
-* **The $M \times N$ Integration Problem**: Why custom point-to-point wrappers fail at scale.
+* **The M × N Integration Problem**: Why custom point-to-point wrappers fail at scale.
 * **The OS Subprocess Architecture**: Why standard I/O pipes (`stdin` and `stdout`) are used instead of local HTTP ports.
 * **The 4-Step Handshake Lifecycle**: Initializing session capabilities, protocol version negotiation (`2024-11-05`), and confirming readiness via `notifications/initialized`.
 * **The Golden Invariant of Stdio**: Why **stdout is strictly sacred** and why all logging must route to `stderr`.
@@ -102,7 +104,7 @@ Scaling agent platforms across enterprise infrastructure:
 * **Semantic Top-K Tool Routing**: Dynamic vector similarity selection injecting only the 4–6 most relevant tools per turn (97% token reduction).
 * **Remote Transports via Server-Sent Events (SSE)**: Asymmetric wire protocol (`GET /sse` persistent downlink + `POST /message` uplink) traversing enterprise API gateways and corporate proxies.
 * **Dynamic Capability Updates**: Utilizing `tools/list_changed` notifications for live, zero-downtime microservice registration.
-* **The Enterprise Mesh Topology**: Client Tier $\to$ Central MCP Gateway $\to$ Federated Cloud Microservices.
+* **The Enterprise Mesh Topology**: Client Tier → Central MCP Gateway → Federated Cloud Microservices.
 
 ---
 

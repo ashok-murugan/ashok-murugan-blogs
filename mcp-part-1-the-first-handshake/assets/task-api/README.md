@@ -7,7 +7,7 @@ This directory contains the standalone backend service that our Python MCP Serve
 ## Architectural Role
 
 > **Mental Model:**  
-> $\text{MCP Server} = \text{Traditional Backend Service} + \text{MCP Adapter}$
+> **MCP Server** = **Traditional Backend Service** + **MCP Adapter**
 
 This service represents the **Traditional Backend Service**. It is an ordinary, concurrent HTTP microservice with **zero knowledge of AI or MCP**. The Python FastMCP adapter (`server.py` in the parent directory) communicates with this backend over standard HTTP REST.
 

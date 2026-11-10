@@ -28,12 +28,12 @@ At scale, the naive approach of spawning dozens of local MCP servers and dumping
 ## The Tool Explosion Problem
 
 Consider an enterprise that connects its developer AI agents (in Claude Desktop, Cursor, or internal portals) to all corporate engineering infrastructure:
-- GitHub (PRs, issues, commits, repo search) $\to$ 45 tools
-- Jira & Confluence $\to$ 35 tools
-- Datadog & CloudWatch APM $\to$ 60 tools
-- PostgreSQL & Snowflake Analytics $\to$ 80 tools
-- Kubernetes Cluster Management $\to$ 50 tools
-- Salesforce & Internal Admin APIs $\to$ 200+ tools
+- GitHub (PRs, issues, commits, repo search) → 45 tools
+- Jira & Confluence → 35 tools
+- Datadog & CloudWatch APM → 60 tools
+- PostgreSQL & Snowflake Analytics → 80 tools
+- Kubernetes Cluster Management → 50 tools
+- Salesforce & Internal Admin APIs → 200+ tools
 
 Total tools in the ecosystem: **470 tools**.
 
