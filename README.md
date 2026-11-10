@@ -10,6 +10,9 @@ Welcome to my personal blog collection. Here, I share insights on startups, tech
 
 ## 📚 Blog Posts
 
+### [Giving AI Hands, Part 1: The First Handshake](./mcp-part-1-the-first-handshake/README.md)
+*How AI and software introduce themselves over the wire using the Model Context Protocol (MCP), and why a single print statement breaks the sacred wire.*
+
 ### [Company Registration Options in India: A Practical Guide](./company-registration-options-india/README.md)
 *A simple, working-professional-friendly guide on when and how to register your side project as a startup in India, while managing moonlighting risks.*
 

@@ -1,0 +1,13 @@
+## Table of Contents
+
+1. [Introduction — The USB-C Moment for Artificial Intelligence](#introduction--the-usb-c-moment-for-artificial-intelligence)
+2. [The Core Problem — Why Not Just Traditional REST APIs](#the-core-problem--why-not-just-traditional-rest-apis)
+3. [The Sacred Wire — Standard Input and Standard Output](#the-sacred-wire--standard-input-and-standard-output)
+   * [The Mystery of the Broken Client](#the-mystery-of-the-broken-client)
+4. [The Three-Phase Handshake — How Programs Introduce Themselves](#the-three-phase-handshake--how-programs-introduce-themselves)
+   * [Phase 1: The Greeting (`initialize`)](#phase-1-the-greeting-initialize)
+   * [Phase 2: The Acknowledgment (`notifications/initialized`)](#phase-2-the-acknowledgment-notificationsinitialized)
+   * [Phase 3: The Catalog Discovery (`tools/list`)](#phase-3-the-catalog-discovery-toolslist)
+5. [Minimal Python Implementation](#minimal-python-implementation)
+6. [Conclusion](#conclusion)
+
