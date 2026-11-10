@@ -38,3 +38,4 @@ python raw_mcp_client.py
 - [MCP Specification: Transports](https://modelcontextprotocol.io/docs/concepts/transports)
 - [JSON-RPC 2.0 Specification](https://www.jsonrpc.org/specification)
 - [MCP Architecture Principles](https://modelcontextprotocol.io/docs/concepts/architecture)
+

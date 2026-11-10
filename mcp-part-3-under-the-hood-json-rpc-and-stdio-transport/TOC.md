@@ -19,3 +19,4 @@
   - [1. The Low-Level Host Client (raw_mcp_client.py)](#1-the-low-level-host-client-rawmcpclientpy)
   - [2. The Low-Level Server (raw_stdio_server.py)](#2-the-low-level-server-rawstdioserverpy)
 - [Architectural Takeaways](#architectural-takeaways)
+

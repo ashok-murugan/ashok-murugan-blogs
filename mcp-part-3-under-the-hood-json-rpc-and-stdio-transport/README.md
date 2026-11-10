@@ -359,3 +359,4 @@ By understanding the systems fundamentals of the Model Context Protocol, we gain
 4. **Tool domain failures belong in results**: Reserve wire-level JSON-RPC error codes for structural protocol breakdowns so the LLM has the opportunity to read the domain error and self-correct.
 
 In **[Part 4 of this series](https://blogs.ashokmurugan.com/mcp-part-4-production-hardening-security-sandboxing-and-observability)**, we will turn our focus to production operations: **securing MCP adapters with OS sandboxing (Docker/Bubblewrap), enforcing token rate limits, and instrumenting distributed OpenTelemetry spans across the stdio boundary**.
+
