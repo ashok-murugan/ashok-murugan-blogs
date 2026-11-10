@@ -193,3 +193,4 @@ if __name__ == "__main__":
     sys.stderr.write("[Gateway] Enterprise MCP Mesh Gateway initialized.\n")
     sys.stderr.flush()
     mcp.run()
+

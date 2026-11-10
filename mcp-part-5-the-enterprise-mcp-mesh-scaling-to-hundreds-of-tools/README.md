@@ -2,7 +2,7 @@
 title: "Model Context Protocol (MCP) Explained, Part 5: The Enterprise MCP Mesh: Scaling to Hundreds of Tools"
 description: "Architecting large-scale agent platforms: solving the tool explosion problem, dynamic semantic tool routing, remote SSE transports, and building an enterprise MCP gateway."
 author: "Ashok Murugan"
-date: "2026-11-10"
+date: "2026-11-09"
 keywords: ["Model Context Protocol", "MCP", "modelcontextprotocol.io", "Enterprise AI Architecture", "Semantic Tool Routing", "MCP Mesh", "Server-Sent Events", "SSE Transport", "AI Agent Gateway", "Vector Search Tool Selection", "Distributed Systems", "Bengaluru Tech"]
 image: "assets/banner.png"
 language: "en-IN"
@@ -250,3 +250,4 @@ The industry has witnessed many attempts to connect AI models to external softwa
 The **Model Context Protocol** represents a permanent inflection point. By establishing an open, transport-agnostic standard grounded in the battle-tested principles of POSIX pipes, JSON-RPC, and URI addressing, MCP does for AI agents what **LSP (Language Server Protocol)** did for developer IDEs.
 
 As autonomous agent swarms, continuous self-healing infrastructure, and AI pair-programming become the daily reality of software engineering, mastering MCP is no longer just a helpful skill—**it is the architectural lingua franca of the Agentic Era**.
+

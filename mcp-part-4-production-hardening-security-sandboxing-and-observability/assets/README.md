@@ -43,3 +43,4 @@ docker run --rm -i \
 - [MCP Security Best Practices](https://modelcontextprotocol.io/docs/concepts/architecture#security)
 - [OpenTelemetry Specification](https://opentelemetry.io/docs/specs/otel/)
 - [OWASP Top 10 for Large Language Models](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+

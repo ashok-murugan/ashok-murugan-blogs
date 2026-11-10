@@ -278,3 +278,4 @@ Deploying AI agents into enterprise infrastructure requires establishing clear, 
 4. **Propagate distributed context**: Maintain OpenTelemetry trace correlation across stdio boundaries so your SRE team has complete visibility from user prompt to database commit.
 
 In **[Part 5 of this series](https://blogs.ashokmurugan.com/mcp-part-5-the-enterprise-mcp-mesh-scaling-to-hundreds-of-tools)**, we will explore the frontier of large-scale agent platforms: **The Enterprise MCP Mesh: Dynamic Service Registries, Semantic Routing over 500+ Tools, and Remote SSE Transports**.
+

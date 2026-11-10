@@ -27,3 +27,4 @@ python gateway.py
 - [MCP Architecture: Enterprise Gateway Design](https://modelcontextprotocol.io/docs/concepts/architecture)
 - [Remote Transports: Server-Sent Events (SSE)](https://modelcontextprotocol.io/docs/concepts/transports#server-sent-events-sse)
 - [Dynamic Capability Negotiation](https://modelcontextprotocol.io/docs/concepts/tools#dynamic-tool-updates)
+
