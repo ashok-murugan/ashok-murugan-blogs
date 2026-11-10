@@ -119,9 +119,48 @@ The server responds with an array of tools, complete with their **JSON Schema** 
 
 ---
 
-## Production Implementation — Building an MCP Server Adapter
+## Production Implementation — The Backend and the MCP Adapter
 
 In real enterprise systems, an MCP server is rarely a toy script with hardcoded responses. It is an **adapter** that connects an AI assistant to an existing production backend.
+
+To ensure realistic enterprise decoupling, our implementation is split into two distinct tiers:
+1. **Tier 1: Production Backend Service (`task-api/`)** — A lightweight, concurrent Go HTTP REST microservice listening on `:8080`. It manages tasks in memory with standard mutex locks and exposes clean REST endpoints (`GET /tasks`, `POST /tasks`). It has **zero awareness** of AI or MCP.
+2. **Tier 2: MCP Server Adapter (`server.py`)** — An asynchronous Python service built with the official [`mcp`](https://github.com/modelcontextprotocol/python-sdk) SDK. It speaks standard JSON-RPC over OS `stdio` pipes to the AI client and translates tool executions into HTTP calls against the Go backend.
+
+<p align="center">
+  <img src="./assets/lld-architecture.png" alt="MCP Adapter Low-Level Design Architecture" width="800" />
+</p>
+
+### Tier 1: The Production REST API (`task-api` in Go)
+
+Here is how the core Go backend exposes task operations over HTTP:
+
+```go
+// task-api/main.go (Go standard library net/http)
+func (srv *Server) HandleTasks(w http.ResponseWriter, r *http.Request) {
+    w.Header().Set("Content-Type", "application/json")
+    switch r.Method {
+    case http.MethodGet:
+        status := r.URL.Query().Get("status")
+        tasks := srv.store.ListTasks(status)
+        json.NewEncoder(w).Encode(tasks)
+
+    case http.MethodPost:
+        var req struct { Title string `json:"title"` }
+        if err := json.NewDecoder(r.Body).Decode(&req); err != nil || strings.TrimSpace(req.Title) == "" {
+            http.Error(w, `{"error":"invalid title"}`, http.StatusBadRequest)
+            return
+        }
+        task := srv.store.AddTask(strings.TrimSpace(req.Title))
+        w.WriteHeader(http.StatusCreated)
+        json.NewEncoder(w).Encode(task)
+    }
+}
+```
+
+---
+
+### Tier 2: The MCP Server Adapter (`server.py` in Python)
 
 The official Python SDK provides a high-level, declarative framework called **FastMCP**, detailed extensively in the official documentation:
 * **[Official MCP Server Quickstart](https://modelcontextprotocol.io/quickstart/server)**: Step-by-step tutorial for building a server in Python.
@@ -131,7 +170,7 @@ The official Python SDK provides a high-level, declarative framework called **Fa
 * **[Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports)**: Mechanics of `stdio` OS pipes vs remote `sse` transports.
 * **[MCP Inspector Debugger](https://modelcontextprotocol.io/docs/tools/inspector)**: Official web developer tool to test and inspect your server without configuring an IDE.
 
-Below is an asynchronous Python MCP server using the official [`mcp`](https://github.com/modelcontextprotocol/python-sdk) SDK that bridges an AI agent to a live REST API:
+Below is the asynchronous Python MCP server that bridges an AI agent to the Go REST API:
 
 ```python
 # server.py
@@ -217,7 +256,20 @@ The code above demonstrates the standard patterns documented in the official [mo
 5. **Decoupled Architecture:**  
    The underlying backend service remains an ordinary REST/gRPC microservice; the MCP adapter simply exposes it safely and dynamically to any AI client.
 
-*(The complete, runnable reference implementation of this adapter is available in this post's [`assets/task_manager_server.py`](./assets/task_manager_server.py) file).*
+---
+
+### Runnable Source Code and GitHub Assets
+
+To make this codebase modular and easy to track as we progress through the series, every article in this 5-part guide maintains its own dedicated assets folder on GitHub.
+
+👉 **[Explore the Part 1 Assets & Runnable Code on GitHub](https://github.com/ashok-murugan/ashok-murugan-blogs/tree/main/mcp-part-1-the-first-handshake/assets)**
+
+The assets directory contains:
+* `task-api/`: Full Go REST API source code (`main.go`, `go.mod`) with zero external dependencies.
+* `server.py`: Complete Python FastMCP stdio server adapter.
+* `requirements.txt`: Python package specifications.
+* `lld-architecture.png`: Full architectural Low-Level Design diagram.
+* `README.md`: Step-by-step instructions on compiling the Go backend, launching the adapter, and inspecting tools with the MCP Inspector.
 
 ---
 
