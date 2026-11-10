@@ -90,12 +90,16 @@ GitHub generates anchors by:
 - **Centering & Scaling:** All diagram images must be wrapped in a centered `<p align="center"><img ... width="85%" /></p>` tag.
 - **Reference Code Attachments:** If the post demonstrates a practical systems implementation, attach or link the runnable reference files under `assets/` or link to the project repository for reader hands-on exploration.
 
-### 4.3 Typography & The RGB Standard
-Follow the established RGB color hierarchy across all posts:
-- **Red (`var(--line-red)` / `#ef4444`):** Strictly reserved for warnings, critical protocol hazards (e.g. `stdout` corruption), breaking alerts, and the first item in the RGB cycling indicator. Never overuse red for normal bold text.
-- **Green (`var(--line-green)` / `#15803d` / `#22c55e`):** The signature developer accent for code block borders, inline code badges, verified architectural patterns, and execution successes.
-- **Blue (`var(--line-blue)` / `#2563eb` / `#3b82f6`):** The navigational and architectural accent for links, subheadings (`###`), blockquote margins, and ordered list markers.
-- **Bold Text (`strong`):** Must render in Deep Slate (`#111827`) to provide typographical hierarchy without causing visual fatigue.
+### 4.3 Typography & The Portal-Wide RGB Color Standard
+The blog portal design system is anchored in a strict, intentional **Red-Green-Blue (RGB)** hierarchy across every section:
+- **Red (`var(--line-red)` / `#ef4444`):** Signature accent for key conceptual anchors, bold terms (`strong`), critical system constraints (e.g. `stdout` corruption), and the 1st cycle in TOC/cards. Bold key terms intentionally (15–25 per article) to create sharp visual anchors without visual fatigue.
+- **Green (`var(--line-green)` / `#15803d` / `#22c55e`):** Signature accent for technical code tokens (`.prose code`), verified implementations, pre-block left borders, and the 2nd cycle in TOC/cards.
+- **Blue (`var(--line-blue)` / `#2563eb` / `#3b82f6`):** Signature accent for hyperlinked resources (`.prose a`), sub-headings (`h3`), blockquote left margins, list markers (`::marker`), and the 3rd cycle in TOC/cards.
+- **RGB Gradient Standard:**
+  - **Article Title (`h1`):** Red-to-Blue text gradient (`linear-gradient(135deg, var(--line-red), var(--line-blue))`).
+  - **Section Dividers (`h2`):** Red-Green-Blue underline border (`linear-gradient(90deg, var(--line-red), var(--line-green), var(--line-blue))`).
+  - **Image Outline:** 3px Red-Green-Blue gradient card outline (`linear-gradient(135deg, var(--line-red), var(--line-green), var(--line-blue))`).
+- **Balanced Section Composition:** Every section must maintain this balanced triad: Red bold conceptual anchors + Green inline code tokens + Blue reference links, creating high readability and harmonious visual rhythm.
 
 ---
 

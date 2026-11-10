@@ -57,3 +57,4 @@ go run main.go
    npx @modelcontextprotocol/inspector python server.py
    ```
 3. When the AI model invokes `add_task(title="Review PR")`, the Python adapter sends a `POST http://localhost:8080/tasks` request here and returns the formatted response back over the JSON-RPC `stdio` pipe.
+

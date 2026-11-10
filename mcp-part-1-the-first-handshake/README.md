@@ -143,12 +143,12 @@ To keep our focus strictly on the protocol, our Python adapter connects to a bac
 ### The Python FastMCP Adapter (`server.py`)
 
 The official Python SDK provides a high-level, declarative framework called **FastMCP**, detailed extensively in the official documentation:
-* **[Official MCP Server Quickstart](https://modelcontextprotocol.io/quickstart/server)**: Step-by-step tutorial for building a server in Python.
-* **[Official Python SDK Repository](https://github.com/modelcontextprotocol/python-sdk)**: Core SDK code, FastMCP implementation, and type definitions.
-* **[MCP Architecture & Server Concepts](https://modelcontextprotocol.io/docs/concepts/servers)**: The formal specification of server lifecycles, capability maps, and protocol states.
-* **[Tools Protocol Specification](https://modelcontextprotocol.io/docs/concepts/tools)**: How tools are declared, schema-validated, and invoked by LLMs.
-* **[Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports)**: Mechanics of `stdio` OS pipes vs remote `sse` transports.
-* **[MCP Inspector Debugger](https://modelcontextprotocol.io/docs/tools/inspector)**: Official web developer tool to test and inspect your server without configuring an IDE.
+* [Official MCP Server Quickstart](https://modelcontextprotocol.io/quickstart/server) — Step-by-step tutorial for building a server in Python.
+* [Official Python SDK Repository](https://github.com/modelcontextprotocol/python-sdk) — Core SDK code, FastMCP implementation, and type definitions.
+* [MCP Architecture & Server Concepts](https://modelcontextprotocol.io/docs/concepts/servers) — The formal specification of server lifecycles, capability maps, and protocol states.
+* [Tools Protocol Specification](https://modelcontextprotocol.io/docs/concepts/tools) — How tools are declared, schema-validated, and invoked by LLMs.
+* [Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports) — Mechanics of `stdio` OS pipes vs remote `sse` transports.
+* [MCP Inspector Debugger](https://modelcontextprotocol.io/docs/tools/inspector) — Official web developer tool to test and inspect your server without configuring an IDE.
 
 Below is the asynchronous Python MCP server that bridges an AI agent to the Go REST API:
 
@@ -222,13 +222,13 @@ if __name__ == "__main__":
 
 The code above demonstrates the standard patterns documented in the official [modelcontextprotocol.io](https://modelcontextprotocol.io/) specification:
 
-1. **Declarative Server Lifecycle ([FastMCP Quickstart](https://modelcontextprotocol.io/quickstart/server)):**  
+1. **Declarative Server Lifecycle** ([FastMCP Quickstart](https://modelcontextprotocol.io/quickstart/server)):  
    Calling `FastMCP("task-manager")` instantiates the session manager. As explained in the [Server Concepts Documentation](https://modelcontextprotocol.io/docs/concepts/servers), it encapsulates capability negotiation, message routing, and graceful shutdown loops without requiring manual JSON-RPC dispatch tables.
-2. **Dynamic Tool Schema Reflection ([Tools Concept Guide](https://modelcontextprotocol.io/docs/concepts/tools)):**  
+2. **Dynamic Tool Schema Reflection** ([Tools Concept Guide](https://modelcontextprotocol.io/docs/concepts/tools)):  
    When decorating functions with `@mcp.tool()`, the SDK inspects your function signature, type annotations (`title: str`, `status: Optional[str]`), and docstring. As documented in the [Tools Specification](https://modelcontextprotocol.io/docs/concepts/tools), FastMCP automatically converts them into an OpenAPI/JSON-Schema-compliant parameter definition returned during the `tools/list` handshake.
-3. **Transport Stream Binding ([Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports#stdio)):**  
+3. **Transport Stream Binding** ([Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports#stdio)):  
    Calling `mcp.run(transport="stdio")` attaches the server to the process's standard input and output streams using asynchronous readers (`anyio`), strictly adhering to line-delimited JSON-RPC framing.
-4. **Interactive Verification with the MCP Inspector ([Inspector Guide](https://modelcontextprotocol.io/docs/tools/inspector)):**  
+4. **Interactive Verification with Inspector** ([MCP Inspector Guide](https://modelcontextprotocol.io/docs/tools/inspector)):  
    You can test this server directly in your browser without configuring an IDE client by running:
    ```bash
    npx @modelcontextprotocol/inspector python server.py
