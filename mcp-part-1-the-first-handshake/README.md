@@ -123,6 +123,14 @@ The server responds with an array of tools, complete with their **JSON Schema** 
 
 In real enterprise systems, an MCP server is rarely a toy script with hardcoded responses. It is an **adapter** that connects an AI assistant to an existing production backend.
 
+The official Python SDK provides a high-level, declarative framework called **FastMCP**, detailed extensively in the official documentation:
+* **[Official MCP Server Quickstart](https://modelcontextprotocol.io/quickstart/server)**: Step-by-step tutorial for building a server in Python.
+* **[Official Python SDK Repository](https://github.com/modelcontextprotocol/python-sdk)**: Core SDK code, FastMCP implementation, and type definitions.
+* **[MCP Architecture & Server Concepts](https://modelcontextprotocol.io/docs/concepts/servers)**: The formal specification of server lifecycles, capability maps, and protocol states.
+* **[Tools Protocol Specification](https://modelcontextprotocol.io/docs/concepts/tools)**: How tools are declared, schema-validated, and invoked by LLMs.
+* **[Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports)**: Mechanics of `stdio` OS pipes vs remote `sse` transports.
+* **[MCP Inspector Debugger](https://modelcontextprotocol.io/docs/tools/inspector)**: Official web developer tool to test and inspect your server without configuring an IDE.
+
 Below is an asynchronous Python MCP server using the official [`mcp`](https://github.com/modelcontextprotocol/python-sdk) SDK that bridges an AI agent to a live REST API:
 
 ```python
@@ -136,12 +144,14 @@ from mcp.server.fastmcp import FastMCP
 API_BASE = os.environ.get("TASK_API_BASE", "http://localhost:8080")
 
 # 1. Initialize FastMCP Server with lifecycle management
+# Official Docs: https://modelcontextprotocol.io/quickstart/server#creating-a-server
 mcp = FastMCP(
     name="task-manager",
     instructions="Production task manager adapter. Supports creating and listing tasks."
 )
 
 # 2. Expose Tool: add_task
+# Official Docs: https://modelcontextprotocol.io/docs/concepts/tools
 @mcp.tool()
 async def add_task(title: str) -> str:
     """
@@ -161,6 +171,7 @@ async def add_task(title: str) -> str:
         return f"Task #{task['id']} created: '{task['title']}' [status: {task['status']}]."
 
 # 3. Expose Tool: list_tasks
+# Official Docs: https://modelcontextprotocol.io/docs/concepts/tools
 @mcp.tool()
 async def list_tasks(status: Optional[str] = "ALL") -> str:
     """
@@ -184,15 +195,29 @@ async def list_tasks(status: Optional[str] = "ALL") -> str:
 
 if __name__ == "__main__":
     # Start listening over standard I/O OS pipes
+    # Official Docs: https://modelcontextprotocol.io/docs/concepts/transports#stdio
     mcp.run(transport="stdio")
 ```
 
-### Why This Architecture Works:
-1. **Zero Manual JSON Parsing:** FastMCP automatically reflects Python type hints (`title: str`, `status: Optional[str]`) and docstrings into JSON Schema definitions sent during `tools/list`.
-2. **Safe Logging:** All diagnostics use `sys.stderr`, keeping the `stdout` JSON-RPC stream pure.
-3. **Decoupled Architecture:** The backend service remains a standard HTTP microservice; the MCP adapter simply exposes it safely to the AI model.
+### Official SDK Architecture and Documentation Guide
 
-*(A complete, runnable reference implementation of this adapter is included in this article's [`assets/task_manager_server.py`](./assets/task_manager_server.py) file).*
+The code above demonstrates the standard patterns documented in the official [modelcontextprotocol.io](https://modelcontextprotocol.io/) specification:
+
+1. **Declarative Server Lifecycle ([FastMCP Quickstart](https://modelcontextprotocol.io/quickstart/server)):**  
+   Calling `FastMCP("task-manager")` instantiates the session manager. As explained in the [Server Concepts Documentation](https://modelcontextprotocol.io/docs/concepts/servers), it encapsulates capability negotiation, message routing, and graceful shutdown loops without requiring manual JSON-RPC dispatch tables.
+2. **Dynamic Tool Schema Reflection ([Tools Concept Guide](https://modelcontextprotocol.io/docs/concepts/tools)):**  
+   When decorating functions with `@mcp.tool()`, the SDK inspects your function signature, type annotations (`title: str`, `status: Optional[str]`), and docstring. As documented in the [Tools Specification](https://modelcontextprotocol.io/docs/concepts/tools), FastMCP automatically converts them into an OpenAPI/JSON-Schema-compliant parameter definition returned during the `tools/list` handshake.
+3. **Transport Stream Binding ([Transports Specification](https://modelcontextprotocol.io/docs/concepts/transports#stdio)):**  
+   Calling `mcp.run(transport="stdio")` attaches the server to the process's standard input and output streams using asynchronous readers (`anyio`), strictly adhering to line-delimited JSON-RPC framing.
+4. **Interactive Verification with the MCP Inspector ([Inspector Guide](https://modelcontextprotocol.io/docs/tools/inspector)):**  
+   You can test this server directly in your browser without configuring an IDE client by running:
+   ```bash
+   npx @modelcontextprotocol/inspector python server.py
+   ```
+5. **Decoupled Architecture:**  
+   The underlying backend service remains an ordinary REST/gRPC microservice; the MCP adapter simply exposes it safely and dynamically to any AI client.
+
+*(The complete, runnable reference implementation of this adapter is available in this post's [`assets/task_manager_server.py`](./assets/task_manager_server.py) file).*
 
 ---
 
