@@ -1,5 +1,5 @@
 - [The Core Architectural Mental Model](#the-core-architectural-mental-model)
-- [The 5-Part Master Curriculum & Index](#the-5-part-master-curriculum--index)
+- [The 5-Part Master Curriculum & Roadmap](#the-5-part-master-curriculum--roadmap)
   - [Part 1: The First Handshake](#part-1-the-first-handshake)
   - [Part 2: Hands, Eyes, and Recipes](#part-2-hands-eyes-and-recipes)
   - [Part 3: Under the Hood: JSON-RPC & Stdio Transport](#part-3-under-the-hood-json-rpc--stdio-transport)
@@ -8,3 +8,4 @@
 - [Architectural Decision Rubric](#architectural-decision-rubric)
 - [GitHub Companion Code Repositories](#github-companion-code-repositories)
 - [Conclusion: Architecting for the Agentic Era](#conclusion-architecting-for-the-agentic-era)
+

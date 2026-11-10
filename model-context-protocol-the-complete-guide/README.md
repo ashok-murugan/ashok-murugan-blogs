@@ -1,9 +1,9 @@
 ---
-title: "Model Context Protocol (MCP): The Complete Developer Guide & Series Index"
-description: "The definitive architectural guide and complete index to the Model Context Protocol (MCP) series. From the first stdio handshake to semantic tool routing, discover how to architect production AI agent systems."
+title: "Model Context Protocol (MCP): The Complete Developer Guide"
+description: "The definitive architectural guide to the Model Context Protocol (MCP). From the first stdio handshake to semantic tool routing, discover how to architect production AI agent systems."
 author: "Ashok Murugan"
 date: "2026-11-10"
-keywords: ["Model Context Protocol", "MCP", "modelcontextprotocol.io", "MCP Guide", "MCP Index", "AI Agents", "FastMCP", "JSON-RPC 2.0", "Enterprise AI Architecture", "Semantic Tool Routing", "AI Platform Engineering", "Bengaluru Tech"]
+keywords: ["Model Context Protocol", "MCP", "modelcontextprotocol.io", "MCP Guide", "MCP Architecture", "AI Agents", "FastMCP", "JSON-RPC 2.0", "Enterprise AI Architecture", "Semantic Tool Routing", "AI Platform Engineering", "Bengaluru Tech"]
 image: "assets/banner.png"
 language: "en-IN"
 geo_region: "IN-KA"
@@ -21,7 +21,7 @@ This fragmented $M \times N$ integration bottleneck changed permanently with the
 
 By establishing a universal, transport-agnostic open standard grounded in battle-tested systems principles—**OS stream pipes, JSON-RPC 2.0 framing, RFC 6570 URI routing, and Server-Sent Events**—MCP does for AI agent systems what the **Language Server Protocol (LSP)** did for modern code editors.
 
-This comprehensive guide serves as the **definitive architectural manifesto and complete master index** for our in-depth 5-part technical deep-dive into the Model Context Protocol.
+This comprehensive guide serves as the **definitive architectural manifesto and technical roadmap** for our in-depth 5-part deep-dive into the Model Context Protocol.
 
 ---
 
@@ -37,7 +37,7 @@ An MCP server does not replace your existing microservice infrastructure, relati
 
 ---
 
-## The 5-Part Master Curriculum & Index
+## The 5-Part Master Curriculum & Roadmap
 
 Our comprehensive series walks through every layer of the protocol lifecycle—from low-level OS file descriptors to multi-tenant enterprise meshes:
 
@@ -141,3 +141,4 @@ We are transitioning from the era of **passive conversational chatbots** into th
 In this new paradigm, an AI model is only as effective as the tools it can wield, the context it can inspect, and the security guardrails that bound its execution.
 
 By standardizing on the **Model Context Protocol**, engineering organizations decouple model intelligence from enterprise infrastructure. You write your system adapters once, govern them with enterprise-grade authorization and observability, and empower any AI client—today and in the future—to safely collaborate with your software.
+
