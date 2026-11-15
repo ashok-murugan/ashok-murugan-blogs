@@ -9,4 +9,5 @@
 - [Production Implementation: The Enterprise Gateway](#production-implementation-the-enterprise-gateway)
 - [Synthesis: The Complete MCP Journey](#synthesis-the-complete-mcp-journey)
 - [The Future of MCP & Agentic Engineering](#the-future-of-mcp--agentic-engineering)
+- [Further Reading & Production Improvisations](#further-reading--production-improvisations)
 

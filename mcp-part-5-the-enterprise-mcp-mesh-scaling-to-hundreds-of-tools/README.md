@@ -251,3 +251,15 @@ The **Model Context Protocol** represents a permanent inflection point. By estab
 
 As autonomous agent swarms, continuous self-healing infrastructure, and AI pair-programming become the daily reality of software engineering, mastering MCP is no longer just a helpful skill—**it is the architectural lingua franca of the Agentic Era**.
 
+---
+
+## Further Reading & Production Improvisations
+
+While Parts 1 through 5 complete the foundational architectural curriculum of the Model Context Protocol, deploying autonomous agents under mission-critical enterprise workloads uncovers subtle operational edge cases that standard specifications rarely discuss.
+
+To address field feedback, failure postmortems, and engineering discussions from production teams, we have expanded our series with an ongoing **Production Battle Scars & Improvisations** track:
+
+* **[Part 6: Production Battle Scars — Partial Writes, Sidecar Crashes & Fault-Tolerant Tool Execution](https://blogs.ashokmurugan.com/mcp-part-6-production-battle-scars-partial-writes-and-fault-tolerance)**  
+  *Explores what happens when a tool call's sidecar process dies mid-write, leaving the agent with a false success signal. Implements the **Read-Back Verification Pattern** (Write $\to$ Read $\to$ Assert), filesystem atomicity via temp-and-rename, and idempotency tokens for safe agent retries (sparked by real-world field feedback from [Emilio Ranucoli on X](https://x.com/ranuk_dev/status/2121984868292702225?a=vTZJL0MgWYUNW8nJea4&s=20)).*
+
+
